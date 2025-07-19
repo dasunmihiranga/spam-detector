@@ -5,7 +5,7 @@ import os
 
 # Get path relative to the location of this file
 base_dir = os.path.dirname(__file__)
-model_path = os.path.join(base_dir, '..', 'model', 'spam_detector.pkl')
+model_path = os.path.join(base_dir, '.', 'model', 'spam_detector.pkl')
 
 # Load model
 model = joblib.load(model_path)
