@@ -1,6 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
+import os
 
 # Get path relative to the location of this file
 base_dir = os.path.dirname(__file__)
